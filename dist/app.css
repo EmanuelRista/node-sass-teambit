@@ -136,12 +136,14 @@ p {
 
 /* Header */
 
-#header .header-1 {
-  min-height: 364px;
-}
-
 .header-2 img {
   width: 100%;
   min-height: 358px;
+}
+
+@media screen and (max-width: 992px) {
+  .header-2 img {
+    min-height: 280px;
+  }
 }
 

@@ -151,7 +151,7 @@ p {
 
 #header{
   .header-1 {
-    min-height: 364px;
+
   }
 }
 
@@ -159,6 +159,9 @@ p {
   img {
     width: 100%;
     min-height: 358px;
+    @include tablet {
+      min-height: 280px;
+    }
   }
 }
 
