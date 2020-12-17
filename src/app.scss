@@ -39,6 +39,25 @@ $color-buttons: #2d478f;
 
 body {
   font-family: $font;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: $text-lg;
+  color: $color-title;
+}
+h2 {
+  font-size: $text-md;
+  color: $color-title;
+}
+h3 {
+  font-size: $text-sm;
+  color: $color-para;
+  font-weight: normal;
+}
+p {
+  font-size: $text-xs;
+  color: $color-para;
 }
 
 /* Utilità */
@@ -46,6 +65,18 @@ body {
 %align-center {
   display: flex;
   align-items: center;
+}
+
+.bg-dark {
+  background-color: $dark;
+}
+
+.bg-light {
+  background-color: $light;
+}
+
+.topp-3 {
+  padding-top: 3rem;
 }
 
 /* Navbar */
@@ -115,4 +146,20 @@ body {
     }
   }
 }
+
+/* Header */
+
+#header{
+  .header-1 {
+    min-height: 364px;
+  }
+}
+
+.header-2 {
+  img {
+    width: 100%;
+    min-height: 358px;
+  }
+}
+
 
