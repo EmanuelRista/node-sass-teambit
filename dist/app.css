@@ -38,6 +38,11 @@ p {
   color: grey;
 }
 
+a {
+  text-decoration: none;
+  color: #2d478f;
+}
+
 button {
   background-color: #2d478f;
   color: white;
@@ -72,6 +77,10 @@ button img {
   background-color: white;
 }
 
+.pad-1 {
+  padding: 1rem;
+}
+
 .pad-2 {
   padding: 2rem;
 }
@@ -88,8 +97,20 @@ button img {
   padding-top: 3rem;
 }
 
+.topp-4 {
+  padding-top: 4rem;
+}
+
 .botp-2 {
   padding-bottom: 2rem;
+}
+
+.pad-r-50 {
+  padding-right: 50%;
+}
+
+.pad-l-50 {
+  padding-left: 50%;
 }
 
 /* Navbar */
@@ -169,13 +190,15 @@ button img {
 
 /* Header */
 
-.header-2 img {
+.image-col-6 img {
   width: 100%;
   min-height: 358px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 @media screen and (max-width: 992px) {
-  .header-2 img {
+  .image-col-6 img {
     min-height: 280px;
   }
 }

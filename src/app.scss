@@ -60,6 +60,10 @@ p {
   font-size: $text-xs;
   color: $color-para;
 }
+a {
+  text-decoration: none;
+  color: $color-buttons;
+}
 button {
   background-color: $color-buttons;
   color: $color-text-btn;
@@ -91,6 +95,9 @@ button {
   background-color: $light;
 }
 
+.pad-1 {
+  padding: 1rem;
+}
 .pad-2 {
   padding: 2rem;
 }
@@ -105,8 +112,21 @@ button {
 .topp-3 {
   padding-top: 3rem;
 }
+
+.topp-4 {
+  padding-top: 4rem;
+}
+
 .botp-2 {
   padding-bottom: 2rem;
+}
+
+.pad-r-50 {
+  padding-right: 50%;
+}
+
+.pad-l-50 {
+  padding-left: 50%;
 }
 
 /* Navbar */
@@ -179,14 +199,16 @@ button {
 
 /* Header */
 
-.header-2 {
+.image-col-6 {
   img {
     width: 100%;
     min-height: 358px;
+    object-fit: contain;
     @include tablet {
       min-height: 280px;
     }
   }
 }
+
 
 
