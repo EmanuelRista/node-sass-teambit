@@ -188,7 +188,7 @@ button img {
   margin-right: 0.5rem;
 }
 
-/* Header */
+/* Main */
 
 .image-col-6 img {
   width: 100%;
@@ -201,5 +201,13 @@ button img {
   .image-col-6 img {
     min-height: 280px;
   }
+}
+
+.white-box {
+  margin: 3rem 8rem;
+  border: 1px solid #2d478f;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: left;
 }
 
