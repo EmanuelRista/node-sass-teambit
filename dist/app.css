@@ -35,6 +35,7 @@ body {
   padding: 0.5rem;
   z-index: 10;
   position: relative;
+  border-bottom: 1px solid #343a40;
 }
 
 .navbar-logo {
@@ -73,10 +74,29 @@ body {
 }
 
 .navbar-menu-links {
-  color: black;
+  color: #343a40;
   justify-content: center;
   text-decoration: none;
   padding: 0 1rem;
   font-weight: bold;
+}
+
+.navbar-menu-links:hover {
+  transform: scale(1.25);
+  transition: 1s;
+  color: grey;
+}
+
+.navbar #button-signup {
+  color: #2d478f;
+  border: 1px solid #2d478f;
+  background: white;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.navbar #button-signup img {
+  width: 1.4rem;
+  margin-right: 0.5rem;
 }
 

@@ -7,7 +7,7 @@ $text-md: 30px;
 $text-sm: 20px;
 $text-xs: 15px;
 
-$color-title: black;
+$color-title: #343a40;
 $color-para: grey;
 
 $light: white;
@@ -58,6 +58,7 @@ body {
   padding: 0.5rem;
   z-index: 10;
   position: relative;
+  border-bottom: 1px solid $color-title;
 
   &-logo {
     color: red;
@@ -95,6 +96,22 @@ body {
       text-decoration: none;
       padding: 0 1rem;
       font-weight: bold;
+      &:hover {
+        transform: scale(1.25);
+        transition: 1s;
+        color: $color-para;
+      }
+    }
+  }
+  #button-signup {
+    color: $color-buttons;
+    border: 1px solid $color-buttons;
+    background: $light;
+    border-radius: 5px;
+    padding: 0.5rem;
+    img {
+      width: 1.4rem;
+      margin-right: 0.5rem;
     }
   }
 }
