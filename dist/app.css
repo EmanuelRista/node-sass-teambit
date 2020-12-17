@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/* Variabili */
+
+/* Media Queries */
+
+/* Globale */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Utilità */
+
+.navbar-menu-links,
+.navbar-menu,
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar */
+
+.navbar {
+  background: white;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  z-index: 10;
+  position: relative;
+}
+
+.navbar-logo {
+  color: red;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 0 1rem;
+}
+
+.navbar-bars {
+  opacity: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-bars {
+    color: grey;
+    opacity: 1;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 30px;
+  }
+}
+
+.navbar-menu {
+  list-style: none;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-menu {
+    display: none;
+  }
+}
+
+.navbar-menu-links {
+  color: black;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  font-weight: bold;
+}
+

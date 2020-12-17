@@ -1,0 +1,101 @@
+/* Variabili */
+
+$font: sans-serif;
+
+$text-lg: 40px;
+$text-md: 30px;
+$text-sm: 20px;
+$text-xs: 15px;
+
+$color-title: black;
+$color-para: grey;
+
+$light: white;
+$dark: #ffe7d1;
+
+$color-buttons: #2d478f;
+
+/* Media Queries */
+
+@mixin tablet {
+  @media screen and (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+/* Globale */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font;
+}
+
+/* Utilità */
+
+%align-center {
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar */
+
+.navbar {
+  background: $light;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  z-index: 10;
+  position: relative;
+
+  &-logo {
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: $text-md;
+    @extend %align-center;
+    padding: 0 1rem;
+  }
+
+  &-bars {
+    opacity: 0;
+    @include tablet {
+      color: $color-para;
+      opacity: 1;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      font-size: $text-md;
+    }
+  }
+
+  &-menu {
+    @extend %align-center;
+    list-style: none;
+    text-align: center;
+    margin-right: 1rem;
+    @include tablet {
+      display: none;
+    }
+    &-links {
+      color: $color-title;
+      @extend %align-center;
+      justify-content: center;
+      text-decoration: none;
+      padding: 0 1rem;
+      font-weight: bold;
+    }
+  }
+}
+
