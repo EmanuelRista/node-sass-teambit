@@ -70,6 +70,11 @@ button {
   padding: 0.3rem 0.5rem;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    transform:scale(1.25);
+    transition: 1s;
+  }
   img {
     width: 0.75rem;
     margin-right: 0.5rem;
@@ -92,6 +97,7 @@ button {
     width: 100%;
     min-height: 358px;
     object-fit: contain;
+    border-radius: 5px;
     @include tablet {
       min-height: 280px;
     }

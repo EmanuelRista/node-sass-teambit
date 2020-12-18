@@ -49,6 +49,12 @@ button {
   padding: 0.3rem 0.5rem;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.25);
+  transition: 1s;
 }
 
 button img {
@@ -74,6 +80,7 @@ button img {
   min-height: 358px;
   -o-object-fit: contain;
      object-fit: contain;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 992px) {
