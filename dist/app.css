@@ -29,13 +29,13 @@ h2 {
 
 h3 {
   font-size: 20px;
-  color: grey;
+  color: #3e14e9;
   font-weight: normal;
 }
 
 p {
   font-size: 15px;
-  color: grey;
+  color: #3e14e9;
 }
 
 a {
@@ -117,7 +117,7 @@ button img {
 
 @media screen and (max-width: 992px) {
   .navbar-bars {
-    color: grey;
+    color: #3e14e9;
     opacity: 1;
     position: absolute;
     top: 1rem;
@@ -149,7 +149,7 @@ button img {
 .navbar-menu-links:hover {
   transform: scale(1.25);
   transition: 1s;
-  color: grey;
+  color: #3e14e9;
 }
 
 .navbar #button-signup {
@@ -347,7 +347,7 @@ button img {
 }
 
 #see-teambit .white-box {
-  color: grey;
+  color: #3e14e9;
 }
 
 #footer {
