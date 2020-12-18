@@ -69,48 +69,17 @@ button img {
   text-align: center;
 }
 
-.bg-dark {
-  background-color: #ffe7d1;
+.image-col-6 img {
+  width: 100%;
+  min-height: 358px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
-.bg-light {
-  background-color: white;
-}
-
-.pad-1 {
-  padding: 1rem;
-}
-
-.pad-2 {
-  padding: 2rem;
-}
-
-.pad-4 {
-  padding: 4rem;
-}
-
-.topp-2 {
-  padding-top: 2rem;
-}
-
-.topp-3 {
-  padding-top: 3rem;
-}
-
-.topp-4 {
-  padding-top: 4rem;
-}
-
-.botp-2 {
-  padding-bottom: 2rem;
-}
-
-.pad-r-50 {
-  padding-right: 50%;
-}
-
-.pad-l-50 {
-  padding-left: 50%;
+@media screen and (max-width: 992px) {
+  .image-col-6 img {
+    min-height: 280px;
+  }
 }
 
 /* Navbar */
@@ -188,26 +157,202 @@ button img {
   margin-right: 0.5rem;
 }
 
-/* Main */
+#header {
+  padding-top: 3rem;
+}
 
-.image-col-6 img {
-  width: 100%;
-  min-height: 358px;
-  -o-object-fit: contain;
-     object-fit: contain;
+#header .container {
+  padding: 1rem;
+}
+
+#traditional {
+  background-color: #ffe7d1;
+}
+
+#traditional h2 {
+  padding: 2rem 0;
+}
+
+#traditional img {
+  padding: 2rem;
+}
+
+#it-doesn {
+  background-color: #ffe7d1;
+}
+
+#it-doesn h2 {
+  padding: 2rem 0;
+}
+
+#it-doesn img {
+  padding: 2rem;
+}
+
+#feedback {
+  padding-top: 2rem;
+}
+
+#feedback h2,
+#feedback h3 {
+  padding-right: 50%;
+  padding-left: 1rem;
+}
+
+#feedback .animals {
+  padding-top: 3rem;
+  padding-left: 1rem;
 }
 
 @media screen and (max-width: 992px) {
-  .image-col-6 img {
-    min-height: 280px;
+  #feedback {
+    text-align: center;
+  }
+
+  #feedback .image-col-6 {
+    display: none;
+  }
+
+  #feedback h2,
+  #feedback h3 {
+    padding: 1rem;
+  }
+
+  #feedback .animals {
+    margin-bottom: 3rem;
   }
 }
 
-.white-box {
-  margin: 3rem 8rem;
+#surveys {
+  padding-top: 2rem;
+}
+
+#surveys h2,
+#surveys h3,
+#surveys .animals {
+  padding-left: 50%;
+}
+
+#surveys .animals {
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 992px) {
+  #surveys {
+    text-align: center;
+  }
+
+  #surveys .image-col-6 {
+    display: none;
+  }
+
+  #surveys h2,
+  #surveys h3,
+  #surveys .animals {
+    padding: 1rem;
+  }
+
+  #surveys .animals {
+    margin-bottom: 2rem;
+  }
+}
+
+#reviews {
+  padding-top: 2rem;
+}
+
+#reviews h2,
+#reviews h3 {
+  padding-right: 50%;
+  padding-left: 1rem;
+}
+
+#reviews .animals {
+  padding-top: 3rem;
+  padding-left: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  #reviews {
+    text-align: center;
+  }
+
+  #reviews .image-col-6 {
+    display: none;
+  }
+
+  #reviews h2,
+  #reviews h3 {
+    padding: 1rem;
+  }
+
+  #reviews .animals {
+    margin-bottom: 3rem;
+  }
+}
+
+#praise {
+  padding-top: 2rem;
+}
+
+#praise h2,
+#praise h3,
+#praise .animals {
+  padding-left: 50%;
+}
+
+#praise .animals {
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 992px) {
+  #praise {
+    text-align: center;
+  }
+
+  #praise .image-col-6 {
+    display: none;
+  }
+
+  #praise h2,
+  #praise h3,
+  #praise .animals {
+    padding: 1rem;
+  }
+
+  #praise .animals {
+    margin-bottom: 2rem;
+  }
+}
+
+#see-teambit {
+  background-color: #ffe7d1;
+}
+
+#see-teambit:first-child {
+  padding: 2rem;
+}
+
+#see-teambit .container div {
+  margin: 3rem 10%;
   border: 1px solid #2d478f;
   border-radius: 5px;
   padding: 1rem;
   text-align: left;
+  background-color: white;
+}
+
+#see-teambit .container div img {
+  padding-right: 1rem;
+}
+
+#see-teambit .container div span {
+  display: flex;
+  align-items: center;
+}
+
+#see-teambit .container div text .blue {
+  color: #2d478f;
+  font-weight: bold;
 }
 

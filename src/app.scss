@@ -87,46 +87,15 @@ button {
   text-align: center;
 }
 
-.bg-dark {
-  background-color: $dark;
-}
-
-.bg-light {
-  background-color: $light;
-}
-
-.pad-1 {
-  padding: 1rem;
-}
-.pad-2 {
-  padding: 2rem;
-}
-.pad-4 {
-  padding: 4rem;
-}
-
-.topp-2 {
-  padding-top: 2rem;
-}
-
-.topp-3 {
-  padding-top: 3rem;
-}
-
-.topp-4 {
-  padding-top: 4rem;
-}
-
-.botp-2 {
-  padding-bottom: 2rem;
-}
-
-.pad-r-50 {
-  padding-right: 50%;
-}
-
-.pad-l-50 {
-  padding-left: 50%;
+.image-col-6 {
+  img {
+    width: 100%;
+    min-height: 358px;
+    object-fit: contain;
+    @include tablet {
+      min-height: 280px;
+    }
+  }
 }
 
 /* Navbar */
@@ -197,25 +166,153 @@ button {
   }
 }
 
-/* Main */
-
-.image-col-6 {
-  img {
-    width: 100%;
-    min-height: 358px;
-    object-fit: contain;
-    @include tablet {
-      min-height: 280px;
-    }
+#header {
+  padding-top: 3rem;
+  .container {
+    padding: 1rem;
   }
 }
 
-.white-box {
-  margin: 3rem 8rem;
-  border: 1px solid $color-buttons;
-  border-radius: 5px;
-  padding: 1rem;
-  text-align: left;
+#traditional {
+  background-color: $dark;
+  h2 {
+    padding: 2rem 0;
+  }
+  img {
+    padding: 2rem;
+  }
+}
+
+#it-doesn {
+  background-color: $dark;
+  h2 {
+    padding: 2rem 0;
+  }
+  img {
+    padding: 2rem;
+  }
+}
+
+#feedback {
+  padding-top: 2rem;
+  h2, h3 {
+    padding-right: 50%;
+    padding-left: 1rem;
+  }
+  .animals {
+    padding-top: 3rem;
+    padding-left: 1rem;
+  }
+  @include tablet {
+    text-align: center;
+    .image-col-6 {
+      display: none;
+    }
+    h2, h3 {
+      padding: 1rem;
+    }
+    .animals {
+      margin-bottom: 3rem;
+    }
+  } 
+}
+
+#surveys {
+  padding-top: 2rem;
+  h2, h3, .animals {
+    padding-left: 50%;
+  }
+  .animals {
+    padding-top: 3rem;
+  } 
+  @include tablet {
+    text-align: center;
+    .image-col-6 {
+      display: none;
+    }
+    h2, h3, .animals {
+      padding: 1rem;
+    }
+    .animals {
+      margin-bottom: 2rem;
+    }
+  } 
+}
+
+#reviews {
+  padding-top: 2rem;
+  h2, h3 {
+    padding-right: 50%;
+    padding-left: 1rem;
+  }
+  .animals {
+    padding-top: 3rem;
+    padding-left: 1rem;
+  } 
+  @include tablet {
+    text-align: center;
+    .image-col-6 {
+      display: none;
+    }
+    h2, h3 {
+      padding: 1rem;
+    }
+    .animals {
+      margin-bottom: 3rem;
+    }
+  } 
+}
+
+#praise {
+  padding-top: 2rem;
+  h2, h3, .animals {
+    padding-left: 50%;
+  }
+  .animals {
+    padding-top: 3rem;
+  } 
+  @include tablet {
+    text-align: center;
+    .image-col-6 {
+      display: none;
+    }
+    h2, h3, .animals {
+      padding: 1rem;
+    }
+    .animals {
+      margin-bottom: 2rem;
+    }
+  } 
+}
+
+#see-teambit {
+  background-color: $dark;
+  &:first-child {
+    padding: 2rem;
+  }
+  .container {
+    div {
+      margin: 3rem 10%;
+      border: 1px solid $color-buttons;
+      border-radius: 5px;
+      padding: 1rem;
+      text-align: left;
+      background-color: $light;
+      img {
+        padding-right: 1rem;
+      }
+      span {
+        display: flex;
+        align-items: center;
+      }
+      text {
+        .blue {
+          color: $color-buttons;
+          font-weight: bold;
+        } 
+      }
+    }
+  }
 }
 
 
