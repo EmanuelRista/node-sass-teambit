@@ -40,11 +40,11 @@ p {
 
 a {
   text-decoration: none;
-  color: #2d478f;
+  color: #7f14d4;
 }
 
 button {
-  background-color: #2d478f;
+  background-color: #7f14d4;
   color: white;
   padding: 0.3rem 0.5rem;
   border: none;
@@ -152,8 +152,8 @@ button img {
 }
 
 .navbar #button-signup {
-  color: #2d478f;
-  border: 1px solid #2d478f;
+  color: #7f14d4;
+  border: 1px solid #7f14d4;
   background: white;
   border-radius: 5px;
   padding: 0.5rem;
@@ -301,7 +301,7 @@ button img {
 
 #see-teambit .container div {
   margin: 3rem 10%;
-  border: 1px solid #2d478f;
+  border: 1px solid #7f14d4;
   border-radius: 5px;
   padding: 1rem;
   text-align: left;
@@ -318,7 +318,7 @@ button img {
 }
 
 #see-teambit .container div text .blue {
-  color: #2d478f;
+  color: #7f14d4;
   font-weight: bold;
 }
 
@@ -372,11 +372,11 @@ button img {
 }
 
 #footer a:hover {
-  color: #2d478f;
+  color: #7f14d4;
 }
 
 #footer p span {
-  color: #2d478f;
+  color: #7f14d4;
   font-weight: bold;
 }
 
