@@ -122,7 +122,8 @@ button {
 		text-decoration: none;
 		font-size: $text-md;
 		@extend %align-center;
-		padding: 0 1rem;
+    padding: 0 1rem;
+    transform: scale(0.8);
 	}
 
 	&-bars {

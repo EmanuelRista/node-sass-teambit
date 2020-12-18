@@ -108,6 +108,7 @@ button img {
   text-decoration: none;
   font-size: 25px;
   padding: 0 1rem;
+  transform: scale(0.8);
 }
 
 .navbar-bars {
