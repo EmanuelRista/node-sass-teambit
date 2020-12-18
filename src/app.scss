@@ -201,8 +201,10 @@ button {
 
 #feedback {
   padding-top: 2rem;
+  .col-lg-3 {
+    min-width: 450px;
+  }
   h2, h3 {
-    padding-right: 50%;
     padding-left: 1rem;
   }
   .animals {
@@ -247,14 +249,16 @@ button {
 
 #reviews {
   padding-top: 2rem;
+  .col-lg-3 {
+    min-width: 450px;
+  }
   h2, h3 {
-    padding-right: 50%;
     padding-left: 1rem;
   }
   .animals {
     padding-top: 3rem;
     padding-left: 1rem;
-  } 
+  }
   @include tablet {
     text-align: center;
     .image-col-6 {

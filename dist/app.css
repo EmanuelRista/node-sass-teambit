@@ -200,9 +200,12 @@ button img {
   padding-top: 2rem;
 }
 
+#feedback .col-lg-3 {
+  min-width: 450px;
+}
+
 #feedback h2,
 #feedback h3 {
-  padding-right: 50%;
   padding-left: 1rem;
 }
 
@@ -268,9 +271,12 @@ button img {
   padding-top: 2rem;
 }
 
+#reviews .col-lg-3 {
+  min-width: 450px;
+}
+
 #reviews h2,
 #reviews h3 {
-  padding-right: 50%;
   padding-left: 1rem;
 }
 
