@@ -89,7 +89,7 @@ button img {
   }
 }
 
-/* Navbar */
+/* Sezioni */
 
 .navbar {
   background: white;
@@ -196,125 +196,95 @@ button img {
   padding: 2rem;
 }
 
-#feedback {
-  padding-top: 2rem;
-}
-
-#feedback h2,
-#feedback h3 {
-  padding-left: 1rem;
-}
-
-#feedback .animals {
-  padding-top: 3rem;
-  padding-left: 1rem;
-}
-
-@media screen and (max-width: 992px) {
-  #feedback {
-    text-align: center;
-  }
-
-  #feedback .image-col-6 {
-    display: none;
-  }
-
-  #feedback h2,
-  #feedback h3 {
-    padding: 1rem;
-  }
-
-  #feedback .animals {
-    margin-bottom: 3rem;
-  }
-}
-
-#surveys {
-  padding-top: 2rem;
-}
-
-#surveys .animals {
-  padding-top: 3rem;
-}
-
-@media screen and (max-width: 992px) {
-  #surveys {
-    text-align: center;
-  }
-
-  #surveys .image-col-6 {
-    display: none;
-  }
-
-  #surveys h2,
-  #surveys h3,
-  #surveys .animals {
-    padding: 1rem;
-  }
-
-  #surveys .animals {
-    margin-bottom: 2rem;
-  }
-}
-
+#feedback,
 #reviews {
   padding-top: 2rem;
 }
 
+#feedback h2,
 #reviews h2,
+#feedback h3,
 #reviews h3 {
   padding-left: 1rem;
 }
 
+#feedback .animals,
 #reviews .animals {
   padding-top: 3rem;
   padding-left: 1rem;
 }
 
 @media screen and (max-width: 992px) {
+  #feedback,
   #reviews {
     text-align: center;
   }
 
+  #feedback .image-col-6,
   #reviews .image-col-6 {
     display: none;
   }
 
+  #feedback h2,
   #reviews h2,
+  #feedback h3,
   #reviews h3 {
     padding: 1rem;
   }
 
+  #feedback .animals,
   #reviews .animals {
     margin-bottom: 3rem;
   }
 }
 
+@media screen and (max-width: 768px) {
+  #feedback img,
+  #reviews img {
+    transform: scale(0.5);
+  }
+}
+
+#surveys,
 #praise {
   padding-top: 2rem;
 }
 
+#surveys .animals,
 #praise .animals {
   padding-top: 3rem;
 }
 
 @media screen and (max-width: 992px) {
+  #surveys,
   #praise {
     text-align: center;
   }
 
+  #surveys .image-col-6,
   #praise .image-col-6 {
     display: none;
   }
 
+  #surveys h2,
   #praise h2,
+  #surveys h3,
   #praise h3,
+  #surveys .animals,
   #praise .animals {
     padding: 1rem;
   }
 
+  #surveys .animals,
   #praise .animals {
     margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #surveys img,
+  #praise img {
+    transform: scale(0.5);
   }
 }
 
@@ -349,12 +319,28 @@ button img {
   font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+  #see-teambit span img {
+    width: 60px;
+  }
+
+  #see-teambit p {
+    display: flex;
+    justify-content: center;
+  }
+
+  #see-teambit p button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+}
+
 #footer {
   padding: 1rem;
 }
 
 #footer [class*=col-] {
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
 #footer li {
