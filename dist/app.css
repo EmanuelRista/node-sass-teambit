@@ -200,10 +200,6 @@ button img {
   padding-top: 2rem;
 }
 
-#feedback .col-lg-3 {
-  min-width: 450px;
-}
-
 #feedback h2,
 #feedback h3 {
   padding-left: 1rem;
@@ -237,12 +233,6 @@ button img {
   padding-top: 2rem;
 }
 
-#surveys h2,
-#surveys h3,
-#surveys .animals {
-  padding-left: 50%;
-}
-
 #surveys .animals {
   padding-top: 3rem;
 }
@@ -269,10 +259,6 @@ button img {
 
 #reviews {
   padding-top: 2rem;
-}
-
-#reviews .col-lg-3 {
-  min-width: 450px;
 }
 
 #reviews h2,
@@ -306,12 +292,6 @@ button img {
 
 #praise {
   padding-top: 2rem;
-}
-
-#praise h2,
-#praise h3,
-#praise .animals {
-  padding-left: 50%;
 }
 
 #praise .animals {
@@ -367,5 +347,40 @@ button img {
 #see-teambit .container div text .blue {
   color: #2d478f;
   font-weight: bold;
+}
+
+#footer {
+  padding: 1rem;
+}
+
+#footer [class*=col-] {
+  margin: 3rem 0;
+}
+
+#footer li {
+  list-style: none;
+}
+
+#footer h3 {
+  font-size: 20px;
+}
+
+#footer h3,
+#footer a {
+  font-weight: bold;
+  color: #343a40;
+}
+
+#footer a:hover {
+  color: #2d478f;
+}
+
+#footer p span {
+  color: #2d478f;
+  font-weight: bold;
+}
+
+#footer p span img {
+  padding: 0 1rem;
 }
 

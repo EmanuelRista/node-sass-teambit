@@ -201,9 +201,6 @@ button {
 
 #feedback {
   padding-top: 2rem;
-  .col-lg-3 {
-    min-width: 450px;
-  }
   h2, h3 {
     padding-left: 1rem;
   }
@@ -227,9 +224,6 @@ button {
 
 #surveys {
   padding-top: 2rem;
-  h2, h3, .animals {
-    padding-left: 50%;
-  }
   .animals {
     padding-top: 3rem;
   } 
@@ -249,9 +243,6 @@ button {
 
 #reviews {
   padding-top: 2rem;
-  .col-lg-3 {
-    min-width: 450px;
-  }
   h2, h3 {
     padding-left: 1rem;
   }
@@ -275,9 +266,6 @@ button {
 
 #praise {
   padding-top: 2rem;
-  h2, h3, .animals {
-    padding-left: 50%;
-  }
   .animals {
     padding-top: 3rem;
   } 
@@ -325,4 +313,31 @@ button {
   }
 }
 
-
+#footer {
+  padding: 1rem;
+  [class*="col-"] {
+    margin: 3rem 0; 
+  }
+  li {
+    list-style: none;
+  }
+  h3 {
+    font-size: $text-sm;
+  }
+  h3, a {
+    font-weight: bold;
+    color: $color-title;
+  }
+  a:hover {
+    color: $color-buttons;
+  }
+  p {
+    span {
+      color:$color-buttons;
+      font-weight: bold;
+      img {
+        padding: 0 1rem;
+      }
+    }
+  }
+}
