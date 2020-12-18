@@ -186,7 +186,7 @@ button img {
 #traditional img,
 #it-doesn img {
   padding: 2rem;
-  filter: invert(1);
+  filter: brightness(0) invert(1);
 }
 
 #traditional h1,
