@@ -98,8 +98,11 @@ button img {
   justify-content: space-between;
   padding: 0.5rem;
   z-index: 10;
-  position: relative;
   border-bottom: 1px solid #7f14d4;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
 }
 
 .navbar-logo {

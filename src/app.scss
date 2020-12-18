@@ -113,8 +113,11 @@ button {
 	justify-content: space-between;
 	padding: 0.5rem;
 	z-index: 10;
-	position: relative;
-	border-bottom: 1px solid $color-title;
+  border-bottom: 1px solid $color-title;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
 
 	&-logo {
 		color: red;
