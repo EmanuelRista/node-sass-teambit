@@ -19,12 +19,12 @@ body {
 
 h1 {
   font-size: 40px;
-  color: #343a40;
+  color: #7f14d4;
 }
 
 h2 {
   font-size: 25px;
-  color: #343a40;
+  color: #7f14d4;
 }
 
 h3 {
@@ -99,7 +99,7 @@ button img {
   padding: 0.5rem;
   z-index: 10;
   position: relative;
-  border-bottom: 1px solid #343a40;
+  border-bottom: 1px solid #7f14d4;
 }
 
 .navbar-logo {
@@ -138,7 +138,7 @@ button img {
 }
 
 .navbar-menu-links {
-  color: #343a40;
+  color: #7f14d4;
   justify-content: center;
   text-decoration: none;
   padding: 0 1rem;
@@ -172,28 +172,31 @@ button img {
   padding: 1rem;
 }
 
-#traditional {
-  background-color: #ffe7d1;
-}
-
-#traditional h2 {
-  padding: 2rem 0;
-}
-
-#traditional img {
-  padding: 2rem;
-}
-
+#traditional,
 #it-doesn {
-  background-color: #ffe7d1;
+  background-color: darkblue;
 }
 
+#traditional h2,
 #it-doesn h2 {
   padding: 2rem 0;
 }
 
+#traditional img,
 #it-doesn img {
   padding: 2rem;
+  filter: invert(1);
+}
+
+#traditional h1,
+#it-doesn h1,
+#traditional h2,
+#it-doesn h2,
+#traditional h3,
+#it-doesn h3,
+#traditional p,
+#it-doesn p {
+  color: white;
 }
 
 #feedback,
@@ -289,7 +292,7 @@ button img {
 }
 
 #see-teambit {
-  background-color: #ffe7d1;
+  background-color: darkblue;
 }
 
 #see-teambit:first-child {
@@ -335,6 +338,17 @@ button img {
   }
 }
 
+#see-teambit h1,
+#see-teambit h2,
+#see-teambit h3,
+#see-teambit p {
+  color: white;
+}
+
+#see-teambit .white-box {
+  color: grey;
+}
+
 #footer {
   padding: 1rem;
 }
@@ -354,7 +368,7 @@ button img {
 #footer h3,
 #footer a {
   font-weight: bold;
-  color: #343a40;
+  color: #7f14d4;
 }
 
 #footer a:hover {

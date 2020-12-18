@@ -7,11 +7,11 @@ $text-md: 25px;
 $text-sm: 20px;
 $text-xs: 15px;
 
-$color-title: #343a40;
+$color-title: #7f14d4;
 $color-para: grey;
 
 $light: white;
-$dark: #ffe7d1;
+$dark: darkblue;
 
 $color-buttons: #2d478f;
 $color-text-btn: white;
@@ -185,18 +185,16 @@ button {
 		padding: 2rem 0;
 	}
 	img {
-		padding: 2rem;
-	}
+    padding: 2rem;
+    filter: invert(1);
+  }
+  h1,h2,h3,p {
+    color: $color-text-btn;
+  }
 }
 
 #it-doesn {
-	background-color: $dark;
-	h2 {
-		padding: 2rem 0;
-	}
-	img {
-		padding: 2rem;
-	}
+  @extend #traditional
 }
 
 #feedback {
@@ -275,7 +273,7 @@ button {
 			border-radius: 5px;
 			padding: 1rem;
 			text-align: left;
-			background-color: $light;
+      background-color: $light;
 			img {
 				padding-right: 1rem;
 			}
@@ -305,7 +303,13 @@ button {
 				margin: 0.5rem;
 			}
 		}
-	}
+  }
+  h1,h2,h3,p {
+    color: $color-text-btn;
+  }
+  .white-box {
+    color: $color-para;
+  }
 }
 
 #footer {
